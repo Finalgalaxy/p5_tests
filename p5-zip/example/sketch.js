@@ -1,7 +1,6 @@
-var system;
-var incremental;
-
-var list;
+var system;         // Particle system.
+var incremental;    // Optimizer for calculating offsets.
+var list;           // List of trajectories for particle system.
 
 function setup() {
     createCanvas(720, 400);
