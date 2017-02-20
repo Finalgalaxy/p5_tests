@@ -58,7 +58,13 @@ function draw() {
     system.run();
 }
 
-
+/* Particle-System-Trajectory. A trajectory is defined by:
+- A start point of animation;
+- An end point;
+- The current point (setted inside the constructor from start data);
+- A speed (higher the value, higher the speed, higher the number of iteractions);
+- A direction (true=right, false=left).
+*/
 var PSTrajectory = function(start,end,speed,isMovingRight){
     this.start=start;
     this.end=end;
