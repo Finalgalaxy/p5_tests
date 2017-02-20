@@ -80,6 +80,7 @@ var color_changer=function(){
     }
 }
 
+// Check if trajectory 1 collides with trajectory 2. Threshold=20.
 function checkCollisions(){
     return (Math.abs(list[0].current.x - list[1].current.x) <= 20
         &&
